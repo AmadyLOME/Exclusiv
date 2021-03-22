@@ -1,0 +1,52 @@
+
+/* TIPS */
+.tips {
+  position: relative;
+  width: 100%;
+  overflow: hidden;
+ background-color: black;
+}
+
+.tip {
+  display: flex;
+  background-color: black;
+}
+
+.tip .tip-vid{
+  padding: 20% 0 20% 0;
+  width: 80%;
+}
+
+.tip-vid iframe {
+  position :relative;
+	display: inline-block;
+	height : 350px;
+}
+.tip .tip-description {
+  background: black;
+  color:#a07950;
+  width: 30%;
+  padding: 11.25em 10em 11.5em;
+}
+
+.tip-title {
+  font-family: 'acumin-pro-extra-condensed', sans-serif;
+  font-size: 3em;
+  font-weight: 100;
+  padding: 2em 0 0 0;
+  letter-spacing: .36em;
+  text-transform: uppercase;
+  line-height: 1.5;
+  max-width: 9em;
+  margin-bottom: .5em;
+}
+
+.tip-text {
+  font-size: 1.1em;
+  line-height: 1.9;
+  opacity: .9;
+  max-width: 20em;
+}
+
+/*Fin Produits */
+

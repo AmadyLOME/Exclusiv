@@ -1,0 +1,68 @@
+/* CSS Document */
+
+/* Produits */
+.products {
+  position: relative;
+  width: 100%;
+  overflow: hidden;
+ background-color: black;
+}
+
+.product {
+  display: flex;
+  background-color: white;
+}
+
+.product .product-img {
+  padding: 20% 0 20% 0%;
+  width: 40%;
+}
+.product-img figure {
+  position: relative;
+}
+
+.product-img figure img {
+  position: relative;
+  width: 300%;
+  z-index: 100;
+}
+.product .product-description {
+  background: #a07950;
+	color:white;
+  width: 60%;
+  padding: 11.25em 10em 11.5em;
+}
+
+.product-title {
+  font-family: 'acumin-pro-extra-condensed', sans-serif;
+  font-size: 3em;
+  font-weight: 100;
+  padding: 2em 0 0 0;
+  letter-spacing: .36em;
+  text-transform: uppercase;
+  line-height: 1.5;
+  max-width: 9em;
+  margin-bottom: .5em;
+}
+
+.product-text {
+  font-size: 1.1em;
+  line-height: 1.9;
+  opacity: .9;
+  max-width: 20em;
+}
+
+.order {
+  font-size: 1em;
+  display: inline-block;
+  margin-top: 4.1em;
+  padding: 0 0 .4em 0;
+  transition: all .3s;
+  text-decoration: none;
+}
+.order:hover {
+  border-bottom: 1px solid white;
+	color:black;
+}
+/*Fin Produits */
+

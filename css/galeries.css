@@ -1,0 +1,95 @@
+/* CSS Document */
+
+/* TIPS */
+
+.carousel-page
+{
+width:50%;
+height:400px;
+background-color:#5f666d;
+color:white;
+}
+
+
+
+/********************************************************************************************************************************
+** FOOTER  ************************************************************************************************************************
+*********************************************************************************************************************************/
+footer {
+  margin-top: -3.5em;
+  padding-top: 10em;
+	background-color:#a07950;
+}
+.footer-content {
+  width: 64%;
+  margin: 0 auto;
+	padding-bottom:1.7em;
+}
+.footer-social {
+  display: block;
+  width: 100%;
+  list-style-type: none;
+  text-align: center;
+}
+.footer-social li {
+  display: inline-block;
+  margin: 0 1.2em;
+}
+.footer-social li a {
+  line-height: 5em;
+  display: inline-block;
+  width: 5em;
+  height: 5em;
+  text-align: center;
+  border: 2px solid rgba(255,255,255,.3);
+  border-radius: 50%;
+}
+.footer-social li a:hover {
+  border-color: black;
+  background: black;
+}
+.footer-social li a img {
+  width: auto;
+  height: 1em;
+}
+.footer-social li a .social-hover {
+  display: none;
+}
+.footer-social li a:hover .social-default {
+  display: none;
+}
+.footer-social li a:hover .social-hover {
+  display: inline;
+}
+.footer-info {
+  clear: both;
+  padding-top: 5em;
+}
+.footer-info p {
+  font-size: .8em;
+  color:black;
+  line-height: 1.55;
+  max-width: 36em;
+  margin-bottom: 1.7em;
+}
+.footer-disclaimer {
+  width: 60%;
+  position: relative;
+}
+.footer-credit {
+  float: right;
+  width: 40%;
+  text-align: right;
+  position: relative;
+}
+.footer-legal {
+  opacity: .8;
+}
+.footer-credit a:hover {
+  text-decoration: none;
+}
+/********************************************************************************************************************************
+** END FOOTER  ************************************************************************************************************************
+*********************************************************************************************************************************/
+
+

@@ -279,7 +279,7 @@ h3 {
   padding-top: 10em;
 }
 .team-content {
-  width: 100%;
+  width: auto;
   margin: 0 auto;
   padding-bottom:1.7em;
 }
@@ -291,7 +291,7 @@ h3 {
 }
 .team-social li {
   display: inline-block;
-  margin: 0 10em;
+  margin: 0 5em;
 }
 .team-social li a {
   line-height: 10em;

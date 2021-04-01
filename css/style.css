@@ -51,11 +51,11 @@ header{
   position: relative;
   display: block;
   float: left;
-  width: 3.1em;
+  width: 4.1em;
 }
 
 .sitelogo img {
-  width: 3.1em;
+  width: 4.1em;
 }
 .logo {
   opacity: 1;
@@ -69,7 +69,7 @@ header{
   left: 0;
   display: block !important;
   width: 80%;
-  padding: .75em 2.3em 0 0;
+  padding: .75em 2.0em 0 0;
   opacity: .95;
   background: none;
 }
@@ -124,7 +124,6 @@ header{
   bottom: 0;
   width: 100%;
   text-align: center;
-	color: black;
 }
 h2 {
 	font-weight: 100;
@@ -183,6 +182,11 @@ h3 {
 }
 /* Fin Introduction*/
 
+/*Carrousel*/
+.carroussel {
+	position: relative;
+    padding: 12.5em 6em 14.5em;	
+}
 
 
 /* Produits */
@@ -199,7 +203,7 @@ h3 {
 
 .produit .produit-img {
   padding: 8% 0 8% 23.5%;
-  width: 50%;
+  width: 40%;
 }
 .produit-img figure {
   position: relative;
@@ -208,16 +212,8 @@ h3 {
 
 .produit-img figure img {
   position: relative;
-  z-index: 100;
-	border-radius: 25%;
-}
-
-.figureproduit{
-	
-}
-
-.figureproduithv{
-	
+  z-index: 1;
+  border-radius: 25%;
 }
 
 .produit .produit-description {
@@ -229,9 +225,9 @@ h3 {
 
 .description-title {
   font-family: 'acumin-pro-extra-condensed', sans-serif;
-  font-size: 3em;
+  font-size: 4em;
   font-weight: 100;
-  padding: 2em 0 0 0;
+  padding: 0.5em 0 0 0;
   letter-spacing: .36em;
   text-transform: uppercase;
   line-height: 1.5;
@@ -240,7 +236,7 @@ h3 {
 }
 
 .description-text {
-  font-size: 1.1em;
+  font-size: 1.5em;
   line-height: 1.9;
   opacity: .9;
   max-width: 20em;
@@ -276,22 +272,23 @@ h3 {
 /*TEAMS*/
 .team {
   margin-top: -3.5em;
-  padding-top: 10em;
+  padding: 6em 2.7em 0 0;
 }
 .team-content {
   width: auto;
   margin: 0 auto;
-  padding-bottom:1.7em;
+  padding-bottom:2em;
 }
 .team-social {
-  display: block;
+  display:block;
   width: 100%;
-  list-style-type: none;
+  list-style-type:circle;
   text-align: center;
+  background-color: #a07950;
 }
 .team-social li {
   display: inline-block;
-  margin: 0 5em;
+  margin: 1em 4em;
 }
 .team-social li a {
   line-height: 10em;
@@ -302,6 +299,7 @@ h3 {
   border: 2px solid rgba(255,255,255,.3);
   border-radius: 25%;
 }
+
 .team-social li a:hover {
   border-color: black;
   background: black;
